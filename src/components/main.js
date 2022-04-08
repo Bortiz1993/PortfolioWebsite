@@ -7,6 +7,7 @@ import Projects from './projects';
 import Resume from './resume';
 
 
+
 //The main routes of the website, EX: localhost 3000/aboutme or localhost 3000/resume. Created all of the pages first, then create all of the routes here.
 const Main = () => {
     return(
