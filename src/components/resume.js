@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import BitMojiMe from './../images/BitMojiMe.png';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills'
+import Skills from './skills';
+import BitMojiA from './../images/BitMojiA.png';
 
 // The cell always requires a column attribute/ this component is the parent to Education and experience.
 class Resume extends Component {
@@ -15,8 +15,8 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
-                            src={BitMojiMe}
-                            alt='BitMojiMe'
+                            src={BitMojiA}
+                            alt='BitMojiA'
                             style={{height: '200px'}}
                             />
                         </div> 
@@ -69,9 +69,7 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #e22947'}}/>
                         <h2>Skills</h2>
 
-                        <Skills
-                            
-                        />
+                        <Skills/>
                     </Cell>
                 </Grid>
             </div>

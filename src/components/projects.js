@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {Button, Tabs, Tab, Grid, Cell, Card, CardMenu, CardTitle, CardActions, IconButton, CardText} from 'react-mdl';
-// import ReactLogo from '../images/ReactLogo.jpg'
+import { Button, Tabs, Tab, Grid, Cell, Card, CardMenu, CardTitle, CardActions, IconButton, CardText} from 'react-mdl';
+
+
 
 
 ///activeTab is the tab Id. Original state of activeTab
@@ -25,7 +26,8 @@ class Projects extends Component{
             {/* CardActions is the className=mdl-card__actions */}
             <CardActions border>
             <Button colored>Github</Button>
-            <Button colored>Live Demo</Button>
+            {/* Anchor tags work well for sending you to another page */}
+            <Button  colored><a style={{textDecoration:'none'}} href='http://localhost:3001/AIGame' target='_blank'>Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name='share'/>

@@ -36,32 +36,32 @@ function Skills (){
             
                 <Box component="fieldset"  borderColor="transparent">
                 <Typography className={classes.root}  variant='h1' component="legend">React</Typography>
-                <Rating name="customized-10" defaultValue={2} max={10} />
+                <Rating name="React-Rating" defaultValue={3} max={10} readOnly />
                  </Box>
 
                 <Box component="fieldset"  borderColor="transparent">
                 <Typography  className={classes.root}component="legend" variant='h5' >HTML/CSS</Typography>
-                <Rating name="customized-10" defaultValue={2} max={10} />
+                <Rating name="HTML/CSS-Rating" defaultValue={4} max={10} readOnly />
                  </Box>
 
                  <Box component="fieldset"  borderColor="transparent">
                 <Typography  className={classes.root}component="legend" variant='h5' >JavaScript</Typography>
-                <Rating name="customized-10" defaultValue={2} max={10} />
+                <Rating name="JavaScript-Rating" defaultValue={3} max={10} readOnly />
                  </Box>
 
                  <Box component="fieldset"  borderColor="transparent">
                 <Typography  className={classes.root}component="legend" variant='h5' >NodeJS</Typography>
-                <Rating name="customized-10" defaultValue={2} max={10} />
+                <Rating name="NodeJS-Rating" defaultValue={3} max={10} readOnly />
                  </Box>
 
                  <Box component="fieldset"  borderColor="transparent">
                 <Typography  className={classes.root}component="legend" variant='h5' >MySQL</Typography>
-                <Rating name="customized-10" defaultValue={2} max={10} />
+                <Rating name="MySQL-Rating" defaultValue={2} max={10}  readOnly/>
                  </Box>
 
                  <Box component="fieldset"  borderColor="transparent">
                 <Typography  className={classes.root}component="legend" variant='h5' >NoSQL</Typography>
-                <Rating name="customized-10" defaultValue={2} max={10} />
+                <Rating name="NoSQL-Rating" defaultValue={3} max={10} readOnly />
                  </Box>
         </div>
     );

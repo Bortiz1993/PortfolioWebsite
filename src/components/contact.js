@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, ListItem, List, ListItemContent} from 'react-mdl';
+import BitMojiHi from './../images/BitMojiHi.png';
 
 
 //a grid system with React-mdl.
@@ -10,8 +11,8 @@ class Contact extends Component {
                  <Grid className="contact-grid">
                  {/* 2 Cells with location of 6 column, the lower the number in the column, the smaller the Cell?. */}
                     <Cell col={6}><h1>Brijido Ortiz</h1>
-                        <img src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
-                            alt="avatar"
+                        <img src={BitMojiHi}
+                            alt="BitMojiHi"
                             style={{height: '250px'}}
                         />
                             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}> hello this is Brijido Ortiz</p>
@@ -29,8 +30,8 @@ class Contact extends Component {
                                 </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                        <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                         <i className='fa fa-snapchat' aria-hidden="true"/> bortiz4ever
+                            <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <i className='fa fa-snapchat' aria-hidden="true"/> bortiz4ever
                                 </ListItemContent>
                                 </ListItem>
                                 <ListItem>
