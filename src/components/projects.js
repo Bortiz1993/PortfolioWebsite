@@ -27,7 +27,7 @@ class Projects extends Component{
             <CardActions border>
             <Button colored>Github</Button>
             {/* Anchor tags work well for sending you to another page */}
-            <Button  colored><a style={{textDecoration:'none'}} href='http://localhost:3001/AIGame' target='_blank'>Live Demo</a></Button>
+            <Button  colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='http://localhost:3001/AIGame' target='_blank'>Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name='share'/>

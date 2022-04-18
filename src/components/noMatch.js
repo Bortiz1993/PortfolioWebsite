@@ -1,14 +1,13 @@
-import React, { Component } from "react"
+import React from "react";
 
-class noMatch extends Component {
-    render(){
-        return (
-            <div><h3>Sorry, no match found.</h3>
+function NoMatch() {
+     return (
+            <div><h3 style={{color:"red"}}>Sorry, no match found.</h3>
             </div>
         );
-    }
+    
  
 }
 
 
-export default noMatch;
+export default NoMatch;

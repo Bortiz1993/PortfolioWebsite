@@ -36,7 +36,7 @@ function Skills (){
             
                 <Box component="fieldset"  borderColor="transparent">
                 <Typography className={classes.root}  variant='h1' component="legend">React</Typography>
-                <Rating name="React-Rating" defaultValue={3} max={10} readOnly />
+                <Rating  name="React-Rating" defaultValue={3} max={10} readOnly />
                  </Box>
 
                 <Box component="fieldset"  borderColor="transparent">
@@ -46,7 +46,7 @@ function Skills (){
 
                  <Box component="fieldset"  borderColor="transparent">
                 <Typography  className={classes.root}component="legend" variant='h5' >JavaScript</Typography>
-                <Rating name="JavaScript-Rating" defaultValue={3} max={10} readOnly />
+                <Rating  name="JavaScript-Rating" defaultValue={3} max={10} readOnly />
                  </Box>
 
                  <Box component="fieldset"  borderColor="transparent">

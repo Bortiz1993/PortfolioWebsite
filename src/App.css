@@ -73,6 +73,22 @@ height: 100%;;
 
 }
 
+/* .MuiRating-iconEmpty{
+    color: "red";
+} */
+/* //resume page? */
+ .MuiRating-iconEmpty svg{
+    color: rgb(214, 155, 165);
+    
+
+}
+ .MuiRating-iconFilled svg{
+    color: rgba(226, 41, 71);
+
+}
+
+/* //skills page */
+
 .mdl-grid{
     display: flex;
     flex-direction: row;
@@ -144,4 +160,30 @@ height: 100%;;
     color: white;
     padding: 2em;
 
+}
+
+/* Media query mobile */
+
+@media only screen and (max-width: 720px){
+    .banner-text{
+         width: 90%;
+    }
+
+    .banner-text h1 {
+        font-size: 20px;
+
+    }
+
+    .banner-text p {
+        font-size: 15px;
+        padding: 1em;
+    }
+
+    .social-links{
+        justify-content: center;
+    }
+
+    .social-links i{
+        font-size: 3em;
+    }
 }
