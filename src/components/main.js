@@ -5,7 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 import Contact from './contact';
 import Projects from './projects';
 import Resume from './resume';
- import NoMatch from './NoMatch';
+ import NotFound from './NotFound';
 
 
 
@@ -18,7 +18,7 @@ const Main = () => {
         <Route path="/contact" component={Contact}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/Resume" component={Resume}/>
-        <Route path="*" component={NoMatch}/>
+        <Route path="*" component={NotFound}/>
      </Switch> 
     )
 }

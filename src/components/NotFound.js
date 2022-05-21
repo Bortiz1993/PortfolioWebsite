@@ -1,6 +1,6 @@
 import React from "react";
 
-function NoMatch() {
+function NotFound() {
      return (
             <div><h3 style={{color:"red"}}>Sorry, no match found.</h3>
             </div>
@@ -10,4 +10,4 @@ function NoMatch() {
 }
 
 
-export default NoMatch;
+export default NotFound;
