@@ -5,6 +5,7 @@ import BitMojiMe from './../images/BitMojiMe.png';
 import '../App.css';
 
 
+
 class Landing extends Component {
     render (){
         return(

@@ -21,13 +21,13 @@ class Projects extends Component{
              <Card shadow={5} style={{Width: '450', margin: '60px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}></CardTitle>
             <CardText>
-             This is my React Project #1.
+             This is my Tic-Tac-Toe React Game.
             </CardText>
             {/* CardActions is the className=mdl-card__actions */}
             <CardActions border>
-            <Button colored>Github</Button>
+            <Button colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='https://github.com/Bortiz1993/TestGame1/tree/main/TicTacToe/my-app2' target='_blank' >Github</a></Button>
             {/* Anchor tags work well for sending you to another page */}
-            <Button  colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='http://localhost:3001/AIGame' target='_blank'>Live Demo</a></Button>
+            <Button  colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='https://ai-tic-tac-toe-game.netlify.app/' target='_blank'>Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name='share'/>
