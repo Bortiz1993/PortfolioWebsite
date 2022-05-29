@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import { Button, Tabs, Tab, Grid, Cell, Card, CardMenu, CardTitle, CardActions, IconButton, CardText} from 'react-mdl';
 
-
-
-
 ///activeTab is the tab Id. Original state of activeTab
 class Projects extends Component{
     constructor(props){

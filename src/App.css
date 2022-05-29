@@ -64,6 +64,7 @@ height: 100%;;
 
 .projects-grid{
     display: flex;
+    flex-direction: column;
 }
 
 .social-links i {
