@@ -64,7 +64,7 @@ height: 100%;;
 
 .projects-grid{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .social-links i {
@@ -186,5 +186,25 @@ height: 100%;;
 
     .social-links i{
         font-size: 3em;
+    }
+
+    .projects-grid{
+        flex-direction: column;
+    }
+
+    .mdl-layout__drawer-button{
+        top: 50px;
+    }
+
+    .mdl-tabs__tab-bar{
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    }
+
+    .mdl-tabs__tab{
+        font-size:12px;
+        padding: 0 5px;
+
+
     }
 }
