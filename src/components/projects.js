@@ -34,7 +34,7 @@ class Projects extends Component{
             <Card shadow={5} style={{minWidth: '450', margin: '60px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://buttercms.com/static/images/tech_banners/Nextjs.b8a717322c08.png) center / cover'}}></CardTitle>
             <CardText>
-             This is my React Project #2.
+             This is my Next.js Movie App Project .
             </CardText>
             <CardActions border>
             <Button colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='https://github.com/Bortiz1993/MovieApp' target='_blank'>GitHub</a></Button>

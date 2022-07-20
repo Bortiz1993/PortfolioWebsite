@@ -7,7 +7,7 @@ import Projects from './projects';
 import Resume from './resume';
  import NotFound from './NotFound';
 
-//  Solved deployment problem by deploying manually to Netlify -07/20/2022
+//  Solved deployment problem by deploying manually to Netlify -07/20/2022, everytime I updated this project, I must deploy manually and must be done inside my-app directory.
 
 
 //The main routes of the website, EX: localhost 3000/aboutme or localhost 3000/resume. Created all of the pages first, then create all of the routes here.
