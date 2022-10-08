@@ -4,6 +4,7 @@ import Main from './components/main';
 import {Link} from 'react-router-dom';
 import './App.css';
 
+//to Deploy this site, it has to be deployed manually by first doing npm run build, dropping the file in netlify manually and start a deployment. make sure to push changes first.
 
 
 //These are the Nav bars. The routes are linked up to the links.

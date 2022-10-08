@@ -35,9 +35,10 @@ class Contact extends Component {
                                 </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                 <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                <i className='fa fa-envelope' aria-hidden='true'/>
-                                Bortiz4ever@gmail.com
+                                 <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton', flexGrow: 3}}>
+                                 <span style={{display: 'flex', justifyContent:'flex-start', flexWrap: 'wrap'}}><i className='fa fa-envelope' aria-hidden='true'/>
+                                Bortiz4ever@gmail.com</span>
+                
                                 </ListItemContent>    
                                 </ListItem>
                             </List>
