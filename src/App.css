@@ -166,6 +166,7 @@ height: 100%;;
 /* Media query mobile */
 
 @media only screen and (max-width: 720px){
+    
     .banner-text{
          width: 90%;
     }
