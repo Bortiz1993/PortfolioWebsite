@@ -146,7 +146,8 @@ height: 100%;;
 
 .contact-list{
     font-size: 66px;
-    padding-right: 5rem;
+    /* padding-right: 3rem; */
+    padding-left: 13rem;
 }
 
 
@@ -154,6 +155,25 @@ height: 100%;;
   font-size: 66px;
   padding-right: 5rem;  
 }
+
+/* Contact page css Mobile  */
+
+@media only screen and (max-width: 720px){
+    .contact-grid{
+        width: auto;
+    }
+    .contact-list{
+        padding-left: none;
+    }
+
+    .mdl-list__item{
+        align-items: center;
+    }
+    .fa-phone-square{
+        padding-right: 5px;
+    }
+}
+
 
 /* Resume page css */
 .resume-right-col {
