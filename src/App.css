@@ -156,6 +156,9 @@ height: 100%;;
   padding-right: 5rem;  
 }
 
+.fa-envelope{
+padding-right: 3rem;
+}
 /* Contact page css Mobile  */
 
 /* @media only screen and (max-width: 720px){
