@@ -38,7 +38,7 @@ class Contact extends Component {
                                 <ListItem>
                             {/* stylings here need work TODO  */}
                                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                 <span className='emailSpan' style={{display: 'flex', justifyContent:'flex-start', flexWrap: 'wrap', alignItems:'flex-end'}}><i className='fa fa-envelope' aria-hidden='true'/>
+                                 <span className='emailSpan' style={{display: 'flex', justifyContent:'flex-start', flexWrap: 'wrap', alignItems:'flex-end', flexDirection: 'row'}}><i className='fa fa-envelope' aria-hidden='true'/>
                                 Bortiz4ever@gmail.com</span>
                 
                                 </ListItemContent>    
