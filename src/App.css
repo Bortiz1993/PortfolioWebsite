@@ -158,21 +158,9 @@ height: 100%;;
 
 /* Contact page css Mobile  */
 
-@media only screen and (max-width: 720px){
-    .contact-grid{
-        width: auto;
-    }
-    .contact-list{
-        padding-left: none;
-    }
-
-    .mdl-list__item{
-        align-items: center;
-    }
-    .fa-phone-square{
-        padding-right: 5px;
-    }
-}
+/* @media only screen and (max-width: 720px){
+   
+} */
 
 
 /* Resume page css */
@@ -227,5 +215,24 @@ height: 100%;;
         padding: 0 5px;
 
 
+    }
+
+    /* mobile contact css  */
+
+    .contact-grid{
+        width: auto;
+    }
+    .contact-list{
+        padding-left: 0rem;
+    }
+    .contact-list i {
+        padding-right:1rem;
+    }
+
+    .mdl-list__item{
+        align-items: center;
+    }
+    .fa-phone-square{
+        padding-right: 5px;
     }
 }
