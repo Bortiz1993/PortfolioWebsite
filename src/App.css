@@ -159,6 +159,13 @@ height: 100%;;
 .fa-envelope{
 padding-right: 3rem;
 }
+
+.emailSpan{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow:row wrap;
+    align-items: flex-end;
+}
 /* Contact page css Mobile  */
 
 /* @media only screen and (max-width: 720px){
@@ -238,4 +245,11 @@ padding-right: 3rem;
     .fa-phone-square{
         padding-right: 5px;
     }
+
+    .emailSpan{
+    align-items: center;
+    flex-direction: column;
+    }
+
+    
 }
