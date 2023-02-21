@@ -183,7 +183,7 @@ padding-right: 3rem;
 
 /* Media query mobile */
 
-@media only screen and (max-width: 720px){
+@media only screen and (min-width:360px) and (max-width: 720px){
     
     .banner-text{
          width: 90%;
@@ -233,7 +233,7 @@ padding-right: 3rem;
         width: auto;
     }
     .contact-list{
-        padding-left: 0rem;
+        padding-left: 50px
     }
     .contact-list i {
         padding-right:1rem;
