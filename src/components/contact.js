@@ -25,14 +25,14 @@ class Contact extends Component {
                             <List style={{}}>
                                 <ListItem>
                                 <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                              <span className='phoneSpan' style={{display: 'flex', justifyContent: 'flex-start', flewWrap:'wrap', alignItems: 'flex-end'}}>  
+                              <span className='phoneSpan' style={{display: 'flex', justifyContent: 'flex-start', flewWrap:'wrap', alignItems: 'center'}}>  
                               <i className='fa fa-phone-square' aria-hidden="true"/>  309-299-2589</span>
                               
                                 </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                             <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                            <span className='snapchatSpan' style={{display: 'flex', justifyContent: 'flex-start', flexWrap:'wrap', alignItems:'flex-end'}}><i className='fa fa-snapchat' aria-hidden="true"/> bortiz4ever</span>
+                            <span className='snapchatSpan' style={{display: 'flex', justifyContent: 'flex-start', flexWrap:'wrap', alignItems:'center'}}><i className='fa fa-snapchat' aria-hidden="true"/> bortiz4ever</span>
                                 </ListItemContent>
                                 </ListItem>
                                 <ListItem>

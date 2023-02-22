@@ -147,24 +147,24 @@ height: 100%;;
 .contact-list{
     font-size: 66px;
     /* padding-right: 3rem; */
-    padding-left: 13rem;
+    padding-left: 17rem;
 }
 
 
 .contact-list i {
   font-size: 66px;
-  padding-right: 5rem;  
+  padding-right: 2rem;  
 }
 
-.fa-envelope{
-padding-right: 3rem;
-}
+/* .fa-envelope{
+padding-right: 3px;
+} */
 
 .emailSpan{
     display: flex;
     justify-content: flex-start;
     flex-flow:row wrap;
-    align-items: flex-end;
+    align-items: center;
 }
 /* Contact page css Mobile  */
 
