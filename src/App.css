@@ -214,10 +214,15 @@ padding-right: 3rem;
     .mdl-layout__drawer-button{
         top: 50px;
     }
+    .mdl-tabs{
+        padding-top: 35px;
+    }
 
     .mdl-tabs__tab-bar{
-        justify-content: space-evenly;
-        align-content: space-evenly;
+        justify-content: center;
+        /* align-content: space-evenly; */
+        flex-wrap: wrap;
+        
     }
 
     .mdl-tabs__tab{
