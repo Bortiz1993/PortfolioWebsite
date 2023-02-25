@@ -166,12 +166,6 @@ padding-right: 3px;
     flex-flow:row wrap;
     align-items: center;
 }
-/* Contact page css Mobile  */
-
-/* @media only screen and (max-width: 720px){
-   
-} */
-
 
 /* Resume page css */
 .resume-right-col {
@@ -183,7 +177,7 @@ padding-right: 3px;
 
 /* Media query mobile */
 
-@media only screen and (min-width:360px) and (max-width: 720px){
+@media only screen and (max-width:720px){
     
     .banner-text{
          width: 90%;
@@ -257,4 +251,43 @@ padding-right: 3px;
     }
 
     
+}
+
+/* media query for Tablet  */
+@media only screen and (min-width:721px) and (max-width:1024){
+.mdl-layout__header{
+    display: inline-block;
+}
+
+.mdl-layout__header-row{
+    align-items: center;
+}
+
+.contact-list{
+    padding-left: 200px;
+}
+
+.mdl-grid{
+    /* flex-direction: column; */
+    align-items:center;
+}
+
+.contact-body{
+    padding-left: 3rem;
+}
+
+.banner-text{
+    height: 400px;
+}
+.banner-text h1{
+    font-size: 50px;
+}
+
+.banner-text p{
+    font-size: 27px;
+}
+
+.social-links{
+    font-size: 40px;
+}
 }
