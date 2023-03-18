@@ -60,7 +60,7 @@ class Projects extends Component{
            {/* CardActions is the className=mdl-card__actions */}
            <CardActions border>
            <Button colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='https://github.com/Bortiz1993/PokeGameTutorial' target='_blank'>Github</a></Button>
-           <Button colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='https://bortiz-portfolio.netlify.app' target='_blank'>Live Demo</a></Button>
+           <Button colored><a style={{textDecoration:'none'}} rel="noopener noreferrer" href='https://pokegamedemo.netlify.app' target='_blank'>Live Demo</a></Button>
            </CardActions>
            <CardMenu style={{color: '#fff'}}>
                <IconButton name='share'/>
